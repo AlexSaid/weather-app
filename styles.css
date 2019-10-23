@@ -1,0 +1,145 @@
+*{ box-sizing: border-box;}
+body{
+   margin: 0;
+   padding: 0;
+   text-rendering: optimizeLegibility;
+   height: 100vh;
+    font-family: 'PT Serif', serif;
+  }
+
+.form-1{
+ 
+  height: 30vh;
+  text-align: center;
+  display: table-cell;
+  width: 10%;
+  vertical-align: middle;
+  /*image background-------------------*/
+  
+  background-position: top left;
+  background-size: cover;
+}
+input, button{
+  width: 250px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 0;
+  padding-left: 8px;
+  font-size: 1rem;
+  letter-spacing: 0.10rem;
+}
+button{
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+ width: inherit;
+}
+.logo{
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  color: darkblue;
+  font-size: 2rem;
+  display: inline;
+}
+.weather-news{
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+
+.text-container{
+    width: 100%;
+    text-align: center;
+}
+.text-container .aler-message{
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(224, 34, 34, 0.753);
+    padding: 8px 0;
+    font-size: 1rem;
+    font-family: 'Old Standard TT', serif;
+}
+.mgm{
+    width: 100px;
+    height: 100px;
+}
+.man .container{
+    text-align: center;
+}
+
+    table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+        margin: 0 auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+  
+  
+
+#container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 255, 0.465); 
+    justify-content: center;
+    
+}
+
+.container-2{
+
+    width: 200px;
+    
+    margin: 5px;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(59, 59, 172, 0.705);
+    box-shadow: 1px 1px 2px rgba(0, 0, 255, 0.479);
+}
+#container .container-2 img{width: 70px;}
+ #container h4, #container h5{
+    font-size: 1rem;
+    font-weight: 500;
+}
+#container span{
+    color: rgb(34, 4, 4);
+}
+#container p{
+    background: rgb(71, 165, 71);
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
